@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Todo Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>My Tasks</h1>
+    <button id="addBtn">+ Add Task</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <div class="modal" id="taskModal">
+    <div class="modal-content">
+      <h2>Add New Task</h2>
+      <input type="text" id="titleInput" placeholder="Title" />
+      <input type="text" id="descInput" placeholder="Description" />
+      <button id="saveBtn">Save</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
